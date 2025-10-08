@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hankins, Rose - CS212 Homework 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="small navbar">
+		<div class="btn">
+			<a href="#summary">Summary</a>
+		</div>
+		<div class="btn">
+			<a href="#education">Education</a>
+		</div>
+		<div class="btn">
+			<a href="#skills">Skills</a>
+		</div>
+		<div class="btn">
+			<a href="#projects">Projects</a>
+		</div>
+		<div class="btn">
+			<a href="#contact">Contact</a>
+		</div>
+
+		<div class="btn" id="resume-button">
+			<a href="./Hankins, Rose - Resume.pdf" target="_blank">Resume</a>
+		</div>
+	</nav>
+	<div class="grid-container">
+		<!-- header -->
+		<header class="header bg-gradient">
+			<h1 class="large"><strong>Rose Hankins</strong> • Full-Stack & Game Developer</h1>
+			<div class="small">
+				<h1><strong>Rose Hankins</strong></h1>
+				<h2>Full-Stack & Game Developer</h2>
+			</div>
+		</header>
+		<!-- sidebar -->
+		<div class="nav-container">
+			<nav class="large navbar">
+				<div class="nav-link btn btn-secondary">
+					<a href="#summary">Summary</a>
+				</div>
+				<div class="nav-link btn btn-secondary">
+					<a href="#education">Education</a>
+				</div>
+				<div class="nav-link btn btn-secondary">
+					<a href="#skills">Skills</a>
+				</div>
+				<div class="nav-link btn btn-secondary">
+					<a href="#projects">Projects</a>
+				</div>
+				<div class="nav-link btn btn-secondary">
+					<a href="#contact">Contact</a>
+				</div>
+	
+				<div id="resume-button" class="nav-link btn btn-primary">
+					<a href="./Hankins, Rose - Resume.pdf" target="_blank">Resume</a>
+				</div>
+			</nav>
+		</div>
+		<!-- content -->
+		<div class="content">
+			<div class="summary-container card">
+				<div class="card-body">
+					<h2 id="summary card-title">Summary</h2>
+					<p class="">
+						I am a software developer with 7 years of experience, primarily focused on
+						<abbr title="Virtual Reality">VR</abbr> games and backend infrastructure.
+						My previous works include several internal prototypes as well as a live-service
+						multiplayer game published on the Oculus store, SideQuest, and Itch.io.
+					</p>
+				</div>
+			</div>
+			<div class="skills-container card">
+				<div class="card-body">
+					<h2 id="skills card-title">Skills</h2>
+					<p class="card-text">
+						I am experienced in both the <a href="https://unity.com" target="_blank">Unity</a> and
+						<a href="https://godotengine.org" target="_blank">Godot</a> game engines, as well as the
+						following languages:
+					</p>
+					<ul class="card-text">
+						<li><b>C#</b> - 7 years</li>
+						<li><b>JavaScript</b> - 4 years</li>
+						<li><b>C</b> - 3 years</li>
+						<li><b>GDScript</b> - 2 years</li>
+					</ul>
+					<p class="card-text">
+						I am also experienced in <a href="https://blender.org" target="_blank">Blender</a> for 3D art and the
+						outstanding texturing plugin <a href="https://ucupumar.github.io/ucupaint-wiki/" target="_blank">Ucupaint</a>.
+					</p>
+				</div>
+			</div>
+			<div>
+				<h2 id="education">Education & Experience</h2>
+				<hr>
+				<table class="table">
+					<tr>
+						<th>
+							Location
+						</th>
+						<th>
+							Time Period
+						</th>
+						<th>
+							Overview
+						</th>
+					</tr>
+					<tr>
+						<td>
+							Northern Arizona University
+						</td>
+						<td class="date">
+							2025 - 2028
+						</td>
+						<td>
+							I am currently working towards a Bachelor's of Science in Computer Science with
+							honors at Northern Arizona University, with an expected graduation in Spring 2028.
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Cochise College
+						</td>
+						<td class="date">
+							2023 - 2025
+						</td>
+						<td>
+							After graduating from high school at 15, I enrolled at Cochise College in the Spring 2023 semester. <br>
+							In Spring 2025, I earned an <abbr title="Associate's of Applied Science">AAS</abbr> with honors in Computer Programming,
+							specializing in Virtual Reality Development. <br>
+							I was also one of four students nominated by Cochise College for the 2025 All-Arizona Academic Team scholarship.
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Subsurface Studios
+						</td>
+						<td class="date">
+							2021 - present
+						</td>
+						<td>
+							In early 2021 I founded the indie game development team Subsurface Studios along with one other developer. <br>
+							I worked alongside this team to create Compensation Social as well as a large number of internal prototypes.
+						</td>
+					</tr>
+				</table>
+			</div>
+			<h2 id="projects"></h2>
+			<div class="project-grid">
+				<div class="card project">
+					<img src="assets/vrd244-1.png" alt="A 3D render from inside a car surrounded by zombies." class="card-img-top">
+					<div class="card-body">
+						<h3 class="project-header card-title"><abbr title="Virtual Reality Development">VRD</abbr> 264 • January - May 2025</h3>
+						<p class="card-text">
+							While taking <abbr title="Virtual Reality Development">VRD</abbr> 264 at Cochise College, I created a
+							number of advanced and interconnecting systems. This included
+							a completely bespoke set of vehicle physics,
+							a realistic firearms system complete with weapon jamming & accurate holographic sight parallax,
+							a physically-based construction system using a saw & nailgun,
+							a bespoke humanoid and vehicle navigation system, and more.
+						</p>
+					</div>
+				</div>
+				<div class="card project">
+					<img src="assets/vrd144-1.png" class="card-img-top" alt="A 3D render from the top of a radio tower, looking down at a foggy valley.">
+					<div class="card-body">
+						<h3 class="project-header card-title"><abbr title="Virtual Reality Development">VRD</abbr> 144 • August - December 2024</h3>
+						<p class="card-text">
+							During my time in <abbr title="Virtual Reality Development">VRD</abbr> 144 at Cochise College, I created a fully
+							physics-based player rig for <abbr title="Virtual Reality">VR</abbr> games. The rig integrated physically-based
+							climbing, grabbing, and movement, creating emergent and intuitive game mechanics from simple behavior.
+							These mechanics included functional ice climbing using ice axes, sliding down a zipline with a crowbar,
+							and climbing a radio broadcast tower in <abbr title="Virtual Reality">VR</abbr>.
+						</p>
+					</div>
+				</div>
+				<div class="card project">
+					<img src="assets/cvr-2.jpg" class="card-img-top" alt="7 people posing for a picture inside a demo event of Compensation Social.">
+					<div class="card-body">
+						<h3 class="project-header card-title">Compensation Social • 2021 - 2023</h3>
+						<p>
+							Compensation Social was a live-service multiplayer <abbr title="Virtual Reality">VR</abbr> game I developed
+							for the Meta Quest series of headsets as well as tethered <abbr title="Virtual Reality">VR</abbr>. I worked
+							alongside a small team of developers as the lead backend developer and head artist. I developed and maintained
+							the backend system the game used to manage player data over the course of the game's 3-year lifecycle. I also
+							developed the <abbr title="User-Generated Content">UGC</abbr> creation tools of the game, which were -at the time-
+							entirely unmatched on standalone <abbr title="Virtual Reality">VR</abbr>. At its peak, Compensation amassed over
+							200 registered users.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<footer id="contact" class="bg-gradient">
+			<div class="contact-list">
+				<h2>Contact</h2>
+				<a href="mailto:jh3994@nau.edu" target="_blank">Academic Email</a>
+				<a href="mailto:rose@subsurface.dev" target="_blank">Business Email</a>
+				<a href="mailto:bubby932@gmail.com" target="_blank">Personal Email</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

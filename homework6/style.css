@@ -43,11 +43,6 @@ header {
 	flex-grow: 1;
 }
 
-.project-grid {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-}
-
 footer {
 	position: sticky;
 	bottom: 0px;
@@ -162,6 +157,11 @@ img:hover {
 	.grid-container p {
 		grid-column-end: span 3;
 	}
+
+	.project-grid {
+		display: grid;
+		grid-template-columns: 100%;
+	}
 }
 
 @media (min-width: 1300px) {
@@ -171,5 +171,10 @@ img:hover {
 
 	img {
 		max-width: 512px;
+	}
+
+	.project-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
